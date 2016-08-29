@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^randomgif/ https://gif.kratib.com [L]
+
+
+<IfModule mod_speling.c>
+CheckSpelling On
+CheckCaseOnly On
+</IfModule>
